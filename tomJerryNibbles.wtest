@@ -1,6 +1,10 @@
 import tomJerryNibbles.*
-
-describe "Grupo de test" {
+//Test uniatrio del programador (propio)
+//! Puede tener 1 o 2 assert (es cierto que). No más dentro de un test.
+/*
+cada test unitario crea el objeto para el test ej crea a tom
+*/
+describe "titulo, desccripcion de lo que estoy testeando" {
 
   test "test 1" {
     assert.equals(100, 50+50)
